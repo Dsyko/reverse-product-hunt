@@ -74,11 +74,52 @@ button,
 .post:hover {
   background: #fcf5e2;
 }
+.post-upvote {
+  width: 30px;
+  height: 42px;
+  text-align: center;
+  cursor: pointer;
+  background: #EDECEB;
+  padding: 0 1px;
+  border-radius: 3px;
+  box-shadow: 0px 1px 0px 0px rgba(83, 69, 64, 0.3), 0px 1px 1px 0px rgba(0, 0, 0, 0.2);
+  -webkit-transition: background 0.1s ease;
+  -moz-transition: background 0.1s ease;
+  -ms-transition: background 0.1s ease;
+  -o-transition: background 0.1s ease;
+  transition: background 0.1s ease;
+}
+.post-upvote .upvote-link {
+  position: relative;
+  padding: 0px;
+  bottom: 5px;
+  display: inline-block;
+  width: 0px;
+  height: 0px;
+  border-bottom: 12px solid #534540;
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  border-top: 12px solid transparent;
+  -webkit-transition: border-color, 0.1s, ease-in;
+  -moz-transition: border-color, 0.1s, ease-in;
+  -ms-transition: border-color, 0.1s, ease-in;
+  -o-transition: border-color, 0.1s, ease-in;
+  transition: border-color, 0.1s, ease-in;
+}
+.post-upvote .upvote-link.voted + .points,
+.post-upvote .upvote-link.voted,
+.post-upvote .upvote-link:hover {
+  color: #da552f;
+  border-bottom-color: #da552f;
+  text-decoration: none;
+}
 .post-rank {
   display: none;
 }
 .post-upvote .points {
   text-align: center;
+  position: relative;
+  bottom: 10px;
 }
 .post-heading .post-title {
   text-decoration: none;
@@ -114,4 +155,10 @@ button,
   position: relative;
   font-size: 18px;
   text-transform: none;
+}
+.single-post .posts .post {
+  background: #fcf5e2;
+}
+.single-post .post-body {
+  background: #fcf5e2;
 }
