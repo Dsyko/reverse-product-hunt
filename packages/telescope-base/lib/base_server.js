@@ -1,0 +1,1 @@
+Accounts.emailTemplates.from = "Reverse Product Hunt <notifications@reverseproducthunt.com>";
