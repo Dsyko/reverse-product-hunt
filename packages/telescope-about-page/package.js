@@ -11,12 +11,11 @@ Package.onUse(function (api) {
     'templating'
   ], 'client');
 
-  api.add_files(['lib/search.js'], ['client', 'server']);
+  api.add_files(['lib/about.js'], ['client', 'server']);
 
   api.add_files([
     'lib/client/routes.js',
     'lib/client/views/about.html',
-    'lib/client/views/about.js',
     'lib/client/css/about.css'
     ], ['client']);
   

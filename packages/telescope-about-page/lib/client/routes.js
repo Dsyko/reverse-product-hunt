@@ -1,6 +1,6 @@
 Meteor.startup(function () {
 
-	AboutController = PostsListController.extend({
+	AboutController = RouteController.extend({
     view: 'about'
   });
 
