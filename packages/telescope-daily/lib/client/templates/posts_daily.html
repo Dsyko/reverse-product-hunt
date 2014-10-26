@@ -2,7 +2,7 @@
   {{#if postsLoaded}}
     <div class="grid">
       {{#each days}}
-        <h2 class="posts-day-heading">{{formatDate date "dddd, MMMM Do YYYY"}}</h2>
+        <h2 class="posts-day-heading">{{PHformatDate date}} <span class="month-and-date">{{formatDate date "MMMM Do"}}</span></h2>
         <div class="posts-wrapper posts-day posts list grid-module">
           {{#if posts}}
             {{#each posts}}

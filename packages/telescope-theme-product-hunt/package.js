@@ -2,7 +2,7 @@ Package.describe({summary: "Telescope Product Hunt theme"});
 
 Package.onUse(function (api) {
 
-	api.use(['templating', 'telescope-base', 'telescope-theme-hubble'], ['client']);
+	api.use(['templating', 'telescope-base', 'telescope-theme-hubble', 'telescope-daily'], ['client']);
 
 	api.add_files([
 		'lib/client/style/product-hunt-theme.css',

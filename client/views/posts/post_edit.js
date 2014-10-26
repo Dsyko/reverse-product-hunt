@@ -98,6 +98,7 @@ Template[getTemplate('post_edit')].events({
 
     var properties = {
       title:            $('#title').val(),
+      tagline:          $('#tagline').val(),
       body:             body,
       categories:       []
     };

@@ -15,6 +15,10 @@ postSchemaObject = {
     type: String,
     label: "Title"
   },
+  tagline: {
+    type: String,
+    label: "Tagline"
+  },
   url: {
     type: String,
     label: "URL",
