@@ -3,6 +3,16 @@
 
 Product Hunt in reverse, submit ideas for products that don't yet exist and see what the community thinks about your idea!
 
+###To Do
+
+* Style this baby up and re-format templates to match product hunt's look at feel.
+* Integrate with the Product Hunt API to allow Product Hunt login
+* Convert API call over to mashape where possible.
+* Setup email through SendGrid
+* Let users talk to eachother through sinch??
+
+
+
 
 Built on Telescope, an open-source, real-time social news site built with [Meteor](http://meteor.com)
 
