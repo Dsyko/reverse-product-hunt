@@ -273,7 +273,7 @@ settingsSchemaObject = {
       instructions: 'You can store any notes or extra information here.',
       rows: 5
     }
-  },
+  }
 };
 
 // add any extra properties to settingsSchemaObject (provided by packages for example)
