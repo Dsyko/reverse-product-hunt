@@ -1,4 +1,5 @@
 .about-link{
-	margin-right: 20px;
 	font-size: 1.5em !important;
+	position: relative;
+	top: 3px;
 }
