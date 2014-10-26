@@ -8,7 +8,7 @@ var kadiraAppIdProperty = {
       group: 'kadira'
     }
   }
-}
+};
 addToSettingsSchema.push(kadiraAppIdProperty);
 
 var kadiraAppSecretProperty = {
@@ -21,5 +21,5 @@ var kadiraAppSecretProperty = {
       group: 'kadira'
     }
   }
-}
+};
 addToSettingsSchema.push(kadiraAppSecretProperty);
