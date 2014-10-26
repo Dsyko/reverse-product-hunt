@@ -28,6 +28,7 @@ body {
   margin-left: 10px;
 }
 .header .brand-title .logo {
+  text-align: left;
   float: none;
   display: block;
   margin: 0px;
