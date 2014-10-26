@@ -107,8 +107,12 @@ button,
   transition: border-color, 0.1s, ease-in;
 }
 .post-upvote .upvote-link.voted + .points,
-.post-upvote .upvote-link.voted,
-.post-upvote .upvote-link:hover {
+.post-upvote .upvote-link.voted {
+  color: #da552f;
+  border-bottom-color: #da552f;
+  text-decoration: none;
+}
+.post-upvote:hover .upvote-link {
   color: #da552f;
   border-bottom-color: #da552f;
   text-decoration: none;

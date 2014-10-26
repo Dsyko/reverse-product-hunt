@@ -101,8 +101,14 @@ input[type="submit"], button, .button, .btn {
 		-o-transition: border-color, 0.1s, ease-in;
 		transition: border-color, 0.1s, ease-in;
 		&.voted + .points,
-		&.voted,
-		&:hover{
+		&.voted{
+			color: #da552f;
+			border-bottom-color: #da552f;
+			text-decoration: none;
+		}
+	}
+	&:hover{
+		.upvote-link {
 			color: #da552f;
 			border-bottom-color: #da552f;
 			text-decoration: none;

@@ -11,7 +11,8 @@ Template[getTemplate('postUpvote')].helpers({
 });
 
 Template[getTemplate('postUpvote')].events({
-  'click .upvote-link': function(e, instance){
+  'click .upvote-link, click .post-upvote-container': function(e, instance){
+	  console.log('Click!');
     var post = this;
     e.preventDefault();
     if(!Meteor.user()){

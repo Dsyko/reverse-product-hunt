@@ -1,11 +1,13 @@
 <template name="postUpvote">
-  <div class="post-rank"><span>{{oneBasedRank}}</span></div>
-  {{#if upvoted}}
-    <span class="upvote-link voted"><span>{{i18n "Upvoted"}}</span></span>
-  {{else}}
-    <a class="upvote-link not-voted" href="#"><span>{{i18n "Upvote"}}</span></a>
-  {{/if}}
-	<div class="points">
-		{{baseScore}}
+	<div class="post-upvote-container">
+		<div class="post-rank"><span>{{oneBasedRank}}</span></div>
+		{{#if upvoted}}
+		<span class="upvote-link voted"><span>{{i18n "Upvoted"}}</span></span>
+		{{else}}
+		<a class="upvote-link not-voted" href="#"><span>{{i18n "Upvote"}}</span></a>
+		{{/if}}
+		<div class="points">
+			{{baseScore}}
+		</div>
 	</div>
 </template>
