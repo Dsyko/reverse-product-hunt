@@ -21,6 +21,7 @@ body{
 		float: left;
 		margin-top: 20px;
 		margin-left: 10px;
+		white-space: nowrap;
 		.logo{
 			text-align: left;
 			float: none;
@@ -176,5 +177,20 @@ input[type="submit"], button, .button, .btn {
 	}
 	.post-body{
 		background: #fcf5e2;
+	}
+}
+
+@media screen and (max-width: 40em){
+	.logo a {
+		line-height: 22px;
+		text-align: left;
+		height: 22px;
+		font-size: 18px;
+	}
+	h2.logo a {
+		font-size: 13px;
+	}
+	.logo-image{
+		margin-left: 60px;
 	}
 }
