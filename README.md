@@ -1,4 +1,10 @@
-Telescope is an open-source, real-time social news site built with [Meteor](http://meteor.com)
+[ ![Codeship Status for Dsyko/reverse-product-hunt](https://www.codeship.io/projects/35249e70-3efc-0132-7245-2664a9286cf3/status)](https://www.codeship.io/projects/43564)
+## Reverse Product Hunt
+
+Product Hunt in reverse, submit ideas for products that don't yet exist and see what the community thinks about your idea!
+
+
+Built on Telescope, an open-source, real-time social news site built with [Meteor](http://meteor.com)
 
 **Note:** Telescope is beta software. Most of it should work but it's still a little unpolished and you'll probably find some bugs. Use at your own risk :)
 
