@@ -1,1 +1,1 @@
-themeSettings.useDropdowns = true; // not strictly needed since "true" is the current default
+//themeSettings.useDropdowns = true; // not strictly needed since "true" is the current default

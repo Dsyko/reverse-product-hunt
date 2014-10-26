@@ -13,6 +13,7 @@ accounts-twitter
 spiderable
 email
 accounts-facebook
+less
 
 # Atmosphere Packages
 
@@ -21,6 +22,7 @@ iron:router@0.9.1
 meteorhacks:fast-render@1.0.0
 meteorhacks:subs-manager@1.1.0
 meteorhacks:npm
+meteorhacks:zones
 
 aldeed:autoform
 aldeed:collection2
@@ -54,6 +56,7 @@ telescope-api
 telescope-module-share
 telescope-theme-base
 telescope-theme-hubble
+telescope-theme-product-hunt
 telescope-daily
 telescope-newsletter
 telescope-module-embedly
@@ -67,3 +70,5 @@ telescope-notifications
 service-configuration
 accounts-ui
 splendido:accounts-templates-unstyled
+
+
