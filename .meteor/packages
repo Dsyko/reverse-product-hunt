@@ -12,7 +12,7 @@ accounts-password
 accounts-twitter
 spiderable
 email
-accounts-facebook
+#accounts-facebook
 less
 
 # Atmosphere Packages
