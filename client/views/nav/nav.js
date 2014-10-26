@@ -23,6 +23,9 @@ Template[getTemplate('nav')].helpers({
   site_title: function(){
     return getSetting('title');
   },
+  site_tagline: function(){
+    return getSetting('tagline');
+  },
   logo_url: function(){
     return getSetting('logoUrl');
   },

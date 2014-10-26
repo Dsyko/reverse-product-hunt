@@ -6,3 +6,60 @@ input[type="submit"],
 input[type="button"] {
   font-family: 'proxima-nova', 'Proxima Nova', "Helvetica Neue", Helvetica, sans-serif;
 }
+.header {
+  background: rgba(255, 255, 255, 0.95);
+  box-shadow: 0px 1px 0px 0px rgba(83, 69, 64, 0.16), 0px 1px 2px 0px rgba(0, 0, 0, 0.1);
+  height: 70px;
+  color: #999999;
+}
+.header .logo {
+  position: relative;
+}
+.header .logo a,
+.header .logo a:visited {
+  color: #da552f;
+}
+.header .brand-title {
+  float: left;
+  margin-top: 20px;
+  margin-left: 10px;
+}
+.header .brand-title .logo {
+  float: none;
+  display: block;
+  margin: 0px;
+  padding: 0px;
+  line-height: 22px !important;
+}
+.header .brand-title h1 {
+  font-size: 20px !important;
+}
+.header .brand-title h2 {
+  font-size: 18px !important;
+}
+.header .brand-title h2 a {
+  color: #999999 !important;
+  font-weight: 500 !important;
+}
+.header .logo-image {
+  margin-right: 0px;
+  float: left;
+}
+.header .primary-nav {
+  float: right;
+}
+.header .secondary-nav {
+  float: right;
+}
+.nav-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 10px;
+  height: 70px;
+}
+input[type="submit"],
+button,
+.button,
+.btn {
+  background: #da552f;
+}
