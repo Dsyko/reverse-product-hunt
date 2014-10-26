@@ -177,7 +177,25 @@ button,
   h2.logo a {
     font-size: 11px;
   }
-  .logo-image {
+  .header {
+    height: 90px;
+  }
+  .header .logo-image {
     margin-left: 50px;
+    float: none;
+  }
+  .header .brand-title {
+    float: none;
+    text-align: center;
+  }
+  .header .brand-title h1.logo {
+    text-align: center;
+  }
+  .header .brand-title h1.logo a {
+    text-align: center;
+    margin-left: 15px;
+  }
+  .header .brand-title h2.logo {
+    display: none;
   }
 }
